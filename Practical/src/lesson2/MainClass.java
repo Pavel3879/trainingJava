@@ -1,8 +1,8 @@
 package lesson2;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
+
 
 public class MainClass {
     public static void main(String[] args) {
