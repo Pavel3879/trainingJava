@@ -69,7 +69,7 @@ public class MainClass {
                 "pear", "pepper", "pineapple", "pumpkin", "potato"};
         String wordSearch = words[random.nextInt(words.length)];
         String wordEntered;
-        System.out.println(wordSearch);
+        //System.out.println(wordSearch);
         do {
             System.out.println("Угадайте слово");
             wordEntered = scaner.nextLine();
