@@ -4,6 +4,7 @@ import lesson31.Boxs.AppleBox;
 import lesson31.Boxs.OrangeBox;
 import lesson31.fruits.Apple;
 import lesson31.fruits.Orange;
+import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -89,7 +90,7 @@ public class BoxDemoApp {
 
     }
 
-    static <T> void swap(T array[], Integer index1, Integer index2) {
+    static <T> void swap(@NotNull T array[], Integer index1, Integer index2) {
         if (index1 == index2 || index1 >= array.length || index2 >= array.length) {
             return;
         }
