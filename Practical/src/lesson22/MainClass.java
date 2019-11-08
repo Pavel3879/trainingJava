@@ -39,7 +39,7 @@ public class MainClass {
         for (int i = 0; i < strings1.length; i++) {
             strings2 = strings1[i].split(" ");
             checkArrayLength(strings2, LENGTH);
-            strings[i] = strings2.clone();
+            strings[i] = strings2;//.clone();
         }
     }
 
